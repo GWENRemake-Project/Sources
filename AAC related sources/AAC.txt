@@ -3,6 +3,12 @@ AAC:
 Spigot Page link: 
 https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gwen notes:
+Gwen relies on aac for catching hackers.
+Gwen does not help with anything more than that
+Gwen does have a staff chat
+Gwens staff chat can be used by saying something starting with an @ in chat
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Spigot page (raw text):
 Tested Minecraft Versions:
 1.81.91.101.111.12

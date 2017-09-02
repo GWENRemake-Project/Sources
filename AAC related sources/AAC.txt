@@ -1,0 +1,269 @@
+AAC:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Spigot Page link: 
+https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Spigot page (raw text):
+Tested Minecraft Versions:
+1.81.91.101.111.12
+Contributors:
+Photon (testing, parts of code), Rqcco (testing), Celebrimbor (testing, overview, support), Janmm14 (testing, overview), geNAZt & GommeHD (configuration, lots of testing, GUI)
+
+Please read ALL of the overview CAREFULLY before purchase!
+By purchasing AAC you confirm you have read the entire overview and you agree to the ToS below.
+
+Version Compatibility
+AAC is only compatible with Spigot 1.8.8, 1.9.4, 1.10.x, 1.11.0, 1.11.2, 1.12
+AAC does not and will never support 1.7 or earlier versioning.
+AAC Support+Requests
+Do not use a review to report bugs/errors. Those will be ignored!
+For feature requests and reporting errors, bugs and bypasses, utilize the Official Issue Tracker.
+When reporting bugs/bypasses, show video from the official test server: test.kons.co
+For simple questions about AAC, ask in the resource discussion.
+For piracy and resource ownership related issues, PM Konsolas.
+For general discussion and support join our Discord group
+What is AAC?
+AAC is a complete anti-cheat solution for servers blocking every major combat hack, and many others. Here is a video showing AAC vs. the hacked client Wolfram:
+
+Please note, the test server is the only appropriate place to evaluate AAC capabilities. The above video is recorded with AAC v1.9.10 and is outdated.
+
+What can AAC do?
+Currently, AAC protects your server from the following hacks:
+Spoiler: Hacks Blocked
+Please note this is not a comprehensive list of every hack blocked.
+Format: Hack/Aliases (Check/Alternative checks)
+
+Movement:
+Fly (Fly)
+Speed (Speed, Fly)
+Glide (Fly)
+FastFall (Fly)
+Spider (Fly)
+HighJump (Fly)
+LongJump (Speed, Fly)
+SelfDamage (Fly)
+MiniJump (Fly/Criticals)
+Blink (Speed/BadPackets)
+Jesus (Speed/Fly/Jesus)
+Timer (Speed)
+Sneak (Speed)
+Phase/NoClip (Phase)
+Vclip (Phase/Fly)
+FastLadder (Climb)
+Some types of derp (Speed/Derp)
+Combat:
+Killaura/Forcefield (FightSpeed/Killaura/Hitbox/Heuristics)
+Aimbot (Killaura/Heuristics)
+Click-Aura (Killaura/Hitbox/Heuristics)
+FightBot (Killaura/Hitbox/Heuristics)
+Anti-Knockback (Knockback/Velocity)
+Reach (Killaura/Hitbox/Heuristics)
+Criticals (Criticals/Fly)
+FastBow (FastBow/BadPackets)
+Regen (Regen/BadPackets)
+FastEat (FastUse)
+NoPotion/Zoot (BadPackets/Regen)
+NoSwing (NoSwing)
+ForcePush (BadPackets/Speed)
+BoatFly - 1.9+ (Fly)
+ElytraFly - 1.9+ (Fly)
+Chat:
+Spambots (Spam)
+World:
+Nuker (FastBreak/Nuker)
+FastBreak (FastBreak)
+Build (FastPlace)
+FastPlace (FastPlace)
+CivBreak (FastBreak)
+NoSwing (NoSwing)
+NoBreakDelay (FastBreak)
+GhostHand (Interact)
+Freecam if you break blocks (Interact)
+Liquids (Interact)
+Scaffold (Interact)
+There are videos showing client X bypassing AAC!
+It is unlikely the video was made with the latest AAC and the fully default config. I urge you to test any "bypassing" clients on test.kons.co as that is the only public server with a guaranteed default config and the latest public version of AAC. If it bypasses there, you have my attention.
+
+But wait, I heard that AAC's Killaura detection is easily bypassed!
+That strongly depends on how you define "bypassed". What you won't find if you're running AAC is any killaura that gives the user a significant advantage. Some good "smooth aim" or "triggerbot" cheats are undetectable (heuristics are trying its best), no matter what anyone tells you. It's also basically useless, no matter what anyone tells you.
+
+Features
+CONFIGURABLE - AAC has a comprehensive configuration file. You can enable or disable any component in AAC. You can change how each one works and you can change the thresholds they work with. If you want unnoticeable, automated hack detection, AAC can do that. If you want tons of information to report to staff to catch hackers faster, AAC can do that too. If you have a lot of staff, and want something to just alert staff, AAC can do that as well. Want to see the config for yourself?
+
+Current Config: https://gist.github.com/konsolas/400c9678e0264fab8d04d84780ec4c63
+
+Want to execute commands/punishments based on certain conditions? Check out Conditional Commands.
+
+AUTOMATED - AAC has a fully automated punishment system. After AAC is certain a player is hacking (the lenience can be configured), the player is automatically kicked. After a configurable number of kicks, that player is automatically banned. Both auto-kick and auto-ban can be turned off completely or modified for your server's existing punishment system.
+
+VERBOSE - AAC can give detailed information about suspected players to staff. Staff with the permission ‘AAC.notify’ are notified whenever a player is suspected of hacking, but has not been automatically kicked. AAC saves a log file of every failed check, kick and ban. If a player gets kicked, the log file will show the details of why they were kicked. This enables staff to check all the reasons a player was kicked for. Staff with the permission AAC.verbose get to see every detail of AAC's internal workings (also must be enabled in config).
+
+LIGHTWEIGHT - AAC is relatively lightweight. All entities used are client-side, meaning the server never needs to process them. However, keep in mind that AAC does need to process every movement by every player on the server, so it will be by no means completely unnoticeable.
+
+KILLAURA DETECTION - AAC's Killaura detection doesn't "suck". AAC has over 100 intricate methods of detecting Killaura and it successfully blocks advanced clients that give a significant advantage. Hackers are detected even if they limit their FOV, hit with random intervals or try any other tricks. Practically every public client and many private clients in existence are blocked. If it isn't, report it!
+
+GUI - AAC has an easy to use GUI so that your staff can easily manage output sent to them, check statistics on possible hackers, and enable or disable checks in real time, whilst the server is running.
+
+ANTI-SPAM - The Spam check in AAC is most certainly not an afterthought. It's both less intrusive and faster than many other plugins. Despite not being a solution for ads/swear or the like, it really is an effective solution to stop spammers.
+
+Still not convinced?
+Here’s the IP for a test server where you can join and try out AAC for yourself. The only change made to the default configuration is ban_threshold: -1 to disable auto banning.
+
+Test Server: test.kons.co
+
+Dependencies
+Java
+To run AAC, you should be using a Spigot server with Java 8 (Java 7 not supported)
+
+Server Version
+AAC v3.0+ supports Spigot versions 1.8.8, 1.9.4, 1.10.x, 1.11.0, 1.11.2, 1.12 (ViaVersion supported)
+Spoiler: Versions before 3.0
+Prior to AAC v3.0, each version of Minecraft had a unique resource jar. If you choose to stick with older builds (not recommended or supported), find your unique build download in AAC's Version History.
+1.8.8: AAC v1.9.10
+1.9.4: AAC v2.0.1
+1.10: AAC v2.1.1
+1.11: None, use v3.0+
+
+ProtocolLib
+AAC requires ProtocolLib to run as a large amount of its work is carried out at the packet level.
+
+For AAC v3.0+, you should always use the ProtocolLib build recommended for your server version.
+Spoiler: Versions before 3.0
+Older AAC builds before v3.0 require a specific version of ProtocolLib. Make sure you have the obsolete ProtocolLib to run your obsolete AAC. (It may also work with ProtocolLib 4.1 and 4.2)
+1.8.8: Build 232
+1.9.4: Build 291
+1.10: Build 303
+
+Compatibility
+AAC is compatible with:
+McMMO
+EnchantsPlus (Please note, the author of EnchantsPlus provides this)
+Vein Miner (2008Choco)
+TokenEnchant (latest versions) if "use_explode_event" is true in TE config
+AAC may be incompatible with:
+Any plugins that affect block breaking speed without vanilla enchants/potions.
+Any plugins that damage other entities for a player (kitpvp abilities)
+Any sort of protocol hack (apart from ViaVersion 1.8-1.11)
+Any plugins that affect block interaction out of a player's line of sight.
+Item Attributes (Speed attribute)
+Bungeecord tab list/nametag plugins
+PerWorldPlugins
+Other plugins that make players seem like they're hacking
+Non-vanilla enchantments
+Installation
+Download both AAC and the correct version of ProtocolLib and put both in your plugins folder. AAC requires a full server restart (no /reload or Plugman), an active internet connection and the ability to connect to cloudflare to start up correctly.
+
+See here for a great config guide by Celebrimbor.
+
+Setup
+The configuration is there for you to tailor to your specific needs. It is recommended you spend some time testing all of your server features that are outside vanilla behavior prior to implementing auto-ban. Take to the AAC Discussion for recommendations on config changes.
+
+When you first install AAC, make sure you and your staff have the permission node ‘AAC.notify’. This will allow them to view AAC’s notifications of possible hackers. In the unlikely event that you do get a false kick, you can increase the ‘threshold’ value of the conflicted check. If a player is verifiably not a hacker or a plugin was not allowing them to act like a hacker, then report the issue as a bug.
+
+Here's the current AAC configuration, it will be kept up to date so watch the revisions each time you update AAC on your server: https://gist.github.com/konsolas/400c9678e0264fab8d04d84780ec4c63
+
+The combat logging function is not designed to be a comprehensive solution for combat loggers. It can accomplish this task, but it is recommended that you use a dedicated plugin.
+
+Developer API
+AAC has an API, here it is:
+Spoiler: AAC API
+
+Skript bindings
+LargeSk by @Nicofisi is a Skript addon which allows full control of AAC's API (spoiler above) via Skript.
+
+Permissions
+AAC.bypass: op. Bypass AAC's checks
+AAC.verbose: op. Receive detailed information on suspected players
+AAC.unban: op. Unban players banned by AAC
+AAC.ban: op. Ban players
+AAC.kick: op. Kill, kick and broadcast a message.
+AAC.admin: op. View the admin control panel
+AAC.debug: op. Debug a player's actions.
+AAC.notify: op. Send/recieve staff chat and aac's notifications
+Commands
+/aackick [player]: kick kill and broadcast a message
+/aacunban [player]: unban a player banned by AAC
+/aacban [player]: Ban a player
+/aacadmin: view the admin GUI
+/aacreload: Text-based reload without the GUI
+/aacdebug [player]: Save a detailed log file of what that player is doing
+/aacstaffnotify [message]: Send a message to all people with the AAC.notify permission. Will be called by the staff chat prefix.
+/aacmessage [player] [message]: Send a message to someone starting with the prefix defined in language.yml
+To-do list
+If something you require is not on this list, please say so on the issue tracker:
+Support speed item attributes
+FAQ
+Spoiler: FAQ
+Will you make it work with 1.7? - No
+Can you make the config auto-update? - No
+Can I have the source code to optimize for my network/server? - No
+AAC Terms of Service
+By downloading this plugin, you agree to the following:
+Spoiler: AAC ToS
+You are not permitted to redistribute the plugin in any form, including as a part of any software package.
+You are not permitted to decompile or modify the plugin in any form.
+You will not receive any refunds.
+You will not file a chargeback, dispute, or perform any similar action. Doing so will result in your licence revoked along with further action from SpigotMC
+The exception to this is if you have already contacted SpigotMC, and they have approved a chargeback. If this is the case, we will gladly refund your money.
+You will not use, or facilitate the use of, AAC to develop bypasses or exploits.
+We reserve the right to change these Terms at any time, and you agree to abide by the most recent version of this.
+
+I'M ABOUT TO LEAVE A REVIEW!
+Awesome! I love honest resource reviews. However, if you have a problem using AAC, the reviews section is the last place to go and any bug/error or issue posted in a review WILL BE IGNORED! If you want a feature, this definitely isn't the place for it.
+
+If you want to be heard, use the listed methods in "AAC Support" at the top of this Overview.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hacks Blocked:
+Please note this is not a comprehensive list of every hack blocked.
+Format: Hack/Aliases (Check/Alternative checks)
+
+Movement:
+Fly (Fly)
+Speed (Speed, Fly)
+Glide (Fly)
+FastFall (Fly)
+Spider (Fly)
+HighJump (Fly)
+LongJump (Speed, Fly)
+SelfDamage (Fly)
+MiniJump (Fly/Criticals)
+Blink (Speed/BadPackets)
+Jesus (Speed/Fly/Jesus)
+Timer (Speed)
+Sneak (Speed)
+Phase/NoClip (Phase)
+Vclip (Phase/Fly)
+FastLadder (Climb)
+Some types of derp (Speed/Derp)
+Combat:
+Killaura/Forcefield (FightSpeed/Killaura/Hitbox/Heuristics)
+Aimbot (Killaura/Heuristics)
+Click-Aura (Killaura/Hitbox/Heuristics)
+FightBot (Killaura/Hitbox/Heuristics)
+Anti-Knockback (Knockback/Velocity)
+Reach (Killaura/Hitbox/Heuristics)
+Criticals (Criticals/Fly)
+FastBow (FastBow/BadPackets)
+Regen (Regen/BadPackets)
+FastEat (FastUse)
+NoPotion/Zoot (BadPackets/Regen)
+NoSwing (NoSwing)
+ForcePush (BadPackets/Speed)
+BoatFly - 1.9+ (Fly)
+ElytraFly - 1.9+ (Fly)
+Chat:
+Spambots (Spam)
+World:
+Nuker (FastBreak/Nuker)
+FastBreak (FastBreak)
+Build (FastPlace)
+FastPlace (FastPlace)
+CivBreak (FastBreak)
+NoSwing (NoSwing)
+NoBreakDelay (FastBreak)
+GhostHand (Interact)
+Freecam if you break blocks (Interact)
+Liquids (Interact)
+Scaffold (Interact)

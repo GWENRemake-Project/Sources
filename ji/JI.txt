@@ -8,9 +8,6 @@ A check was bypassed? Don't worry report it to us and we will take care of that 
 Configuration
 Want it to look like your own? The anti cheat includes a language file and configuration files. You also have the option to log all bans to a file for lookup usage.
 
-Anti Leak
-Don't worry, with our anti leak code implementation, we monitor the usage of the plugin and can disable leaked copies on the fly, that way the plugin is unique to our customers.
-
 Judgement Day
 Like watching hackers get banned on all the same time? Well I do to, so I've added a judgement day feature, here's a video of it.
 
@@ -22,7 +19,6 @@ Commands
 - /alerts - toggle on and off alerts
 - /autoban cancel<player> - cancels an auto ban queue
 
-Test Server:
 Src: Ask emeraldtnt
 
 * All checks are functional except reach, and blink at the moment and will alert and auto ban if enabled. The perfected checks mean I found it hard to bypass it if at all. Being updated checks means they could use updates as they could be bypassed by certain clients. *

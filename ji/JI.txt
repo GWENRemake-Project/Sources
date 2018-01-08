@@ -14,10 +14,6 @@ Don't worry, with our anti leak code implementation, we monitor the usage of the
 Judgement Day
 Like watching hackers get banned on all the same time? Well I do to, so I've added a judgement day feature, here's a video of it.
 
-
-
-
-
 Commands
 - /ji (GUI) - options = Checks | AutoBans - Can toggle on and off checks and autobans
 - /ji bans (GUI) - displays all recents bans
